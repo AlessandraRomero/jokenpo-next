@@ -1,8 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Jokenpo é uma brincadeira japonesa, onde dois jogadores escolhem um dentre três possíveis itens: Pedra, Papel ou Tesoura.
+
+REGRAS:
+Pedra ganha da tesoura (amassando-a ou quebrando-a).
+Tesoura ganha do papel (cortando-o).
+Papel ganha da pedra (embrulhando-a).
+
+A pedra é simbolizada por um punho fechado; a tesoura, por dois dedos esticados; e o papel, pela mão aberta. Caso dois jogadores façam o mesmo gesto, ocorre um empate, e geralmente se joga de novo até desempatar.
+
 ![alt text](image-1.png)
 
-Link do jogo: [https://jokenpo-next.vercel.app/]
+Link do jogo: [https://jokenpo-next.vercel.app/](https://jokenpo-next.vercel.app/)
 
 ## Getting Started
 
