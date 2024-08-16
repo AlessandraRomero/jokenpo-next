@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+![alt text](image-1.png)
+
+Link do jogo: [https://jokenpo-next.vercel.app/]
+
 ## Getting Started
 
 First, run the development server:
