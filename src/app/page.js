@@ -134,7 +134,7 @@ const Jokenpo = () => {
         {result}
       </h2>
       {playerChoice && computerChoice && !gameOver && (
-        <p className="text-ellipsis flex justify-center gap-2 mb-6 text-sm">
+        <p className="text-ellipsis overflow-hidden flex justify-center gap-2 mb-6 text-sm">
           {playerName} escolheu {playerChoice}, o computador escolheu{" "}
           {computerChoice}.
         </p>
