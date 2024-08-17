@@ -104,6 +104,7 @@ const Jokenpo = () => {
           value={playerName}
           onChange={(e) => setPlayerName(e.target.value)}
           className="w-full max-w-xs"
+          maxLength={15}
         />
         {errorMessage && (
           <p className="text-red-500 text-center text-sm">{errorMessage}</p>
