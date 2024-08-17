@@ -127,25 +127,29 @@ const Jokenpo = () => {
           />
         ))}
       </div>
-      <h2
-        style={{ color: "#8162FF" }}
-        className="flex justify-center gap-2 mb-6 text-lg font-bold"
-      >
-        {result}
-      </h2>
-      {playerChoice && computerChoice && !gameOver && (
-        <p className="text-ellipsis overflow-hidden flex justify-center gap-2 mb-6 text-sm">
-          {playerName} escolheu {playerChoice}, o computador escolheu{" "}
-          {computerChoice}.
-        </p>
-      )}
-      {!gameOver && (
-        <div className="flex justify-center gap-2 mb-6">
-          <p>Vitórias: {playerWins}</p>
-          <p>Derrotas: {computerWins}</p>
-          <p>Empates: {ties}</p>
-        </div>
-      )}
+      <div className="flex flex-col items-center">
+        <h2
+          className={`gap-2 mb-6 text-lg font-bold ${styles.choiceSummary}`}
+          style={{ color: "#8162FF" }}
+        >
+          {result}
+        </h2>
+        {playerChoice && computerChoice && !gameOver && (
+          <p
+            className={`text-ellipsis overflow-hidden gap-2 mb-6 text-sm ${styles.choiceSummary}`}
+          >
+            {playerName} escolheu {playerChoice}, o computador escolheu{" "}
+            {computerChoice}.
+          </p>
+        )}
+        {!gameOver && (
+          <div className="flex justify-center gap-2 mb-6">
+            <p>Vitórias: {playerWins}</p>
+            <p>Derrotas: {computerWins}</p>
+            <p>Empates: {ties}</p>
+          </div>
+        )}
+      </div>
       <div className="flex justify-center mb-6">
         <button onClick={resetGame} className={`${styles.resetButton}`}>
           Parar

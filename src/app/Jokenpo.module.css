@@ -30,3 +30,9 @@
     background-color: #fc8181;
     transform: scale(1.05);
 }
+
+.choiceSummary {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+}
