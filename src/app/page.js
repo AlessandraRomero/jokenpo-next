@@ -129,7 +129,7 @@ const Jokenpo = () => {
       </div>
       <div className="flex flex-col items-center">
         <h2
-          className={`gap-2 mb-6 text-lg font-bold ${styles.choiceSummary}`}
+          className={`text-ellipsis overflow-hidden gap-2 mb-6 text-lg font-bold ${styles.choiceSummary}`}
           style={{ color: "#8162FF" }}
         >
           {result}
